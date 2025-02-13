@@ -4,10 +4,11 @@
     flex-direction: column-reverse;
     display: flex;
     border-radius: 10px;
+    position: relative;
 }
 .card-image {
-    height: 300px;
-    width: 350px;
+    height: 340px;
+    width: 340px;
     border-radius: 10px;
 }
 .house-cards {
@@ -20,7 +21,13 @@
     background-color:#f6f6f6;
     border-radius: 25px;
     column-gap: 60px;
-    row-gap: 10px;
+    row-gap: 50px;
+    height: 100%;
+    max-height: 829px;
+    overflow: scroll;
+    padding-top: 50px;
+    width: 1240px;
+    height: 830px;
 
 
 }
