@@ -10,7 +10,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 1240px;
+
 }
+.arrow__links button{
+    background-color: transparent;
+    border: none ;
+    height: 415px;
+
+}
+
+
 .displaySlideshow {
 
     display: flex;
