@@ -9,6 +9,7 @@ const Card = ({ id, title, cover, location }) => {
   }
 
   return (
+    <>
     <Link to={`/logement/${id}`} className="card-link">
       <div className="card">
         <img src={cover} alt={title} className="card-image" />
@@ -17,6 +18,7 @@ const Card = ({ id, title, cover, location }) => {
         </div>
       </div>
     </Link>
+    </>
   );
 };
 

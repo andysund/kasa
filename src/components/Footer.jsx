@@ -5,6 +5,7 @@ import '../styles/Legal.css'
 
 function Footer () {
     return (
+        <>
         <div className="footer">
              <Link to="/">
             <img src={LogoFooter} alt="Logo Kasa footer" className="Footer__logo" />
@@ -14,6 +15,7 @@ function Footer () {
        
 
         </div>
+        </>
         
         
      )

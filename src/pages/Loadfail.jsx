@@ -1,4 +1,4 @@
-import Banner from '../components/Banner.jsx'
+import Banner from '../components/banner.jsx'
 function LoadFail() {
     return ( 
         <>

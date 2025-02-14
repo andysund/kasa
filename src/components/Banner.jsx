@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../styles/Banner.css'
 function Banner () {
     return (
+        <>
         <nav className="banner">
         <Link to="/">
             <img src={logo} alt="Logo Kasa" className="banner__logo" />
@@ -12,6 +13,7 @@ function Banner () {
             <Link to="/about" className="banner__link">A Propos</Link>
         </div>
     </nav>
+    </>
      )
 }
 export default Banner

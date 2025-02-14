@@ -1,0 +1,48 @@
+.loft-full-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.loft-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px;
+}
+.loft-location h2 {
+    margin: 0;
+}
+.loft-location p {
+    margin: 0;
+}
+.loft-owner {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+
+
+}
+.loft-owner__name {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 8px;
+    font-weight: 500;
+    margin: 0;
+    width: 93px;
+    height: 52px;
+
+}
+.loft-owner__name h1 {
+    margin: 0
+}
+.loft-owner__picture img {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+
+
+
+}
