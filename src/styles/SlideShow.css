@@ -1,32 +1,30 @@
-    
+.displaySlideshow {
+    position: relative; /* Ajouté pour que les éléments absolus se positionnent par rapport à ce conteneur */
+    display: flex;
+    max-width: 1240px;
+    height: 415px;
+}
+
 .houseSlideShow {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
+
+/* On retire la largeur fixe et on positionne les flèches */
 .arrow__links {
     position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 1240px;
-
 }
-.arrow__links button{
+
+.arrow__links button {
     background-color: transparent;
-    border: none ;
+    border: none;
     height: 415px;
-
-}
-
-
-.displaySlideshow {
-
-    display: flex;
-    max-width: 1240px;
-    height: 415px;
-    
-
-
 }
