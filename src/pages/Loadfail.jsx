@@ -1,8 +1,12 @@
 import Banner from '../components/banner.jsx'
-function LoadFail() {
+import Footer from '../components/Footer.jsx'
+import LoadFailDisplay from '../components/LoadFailDisplay.jsx'
+function LoadFail()  {
     return ( 
         <>
         <Banner/>
+        <LoadFailDisplay/>
+        <Footer/>   
 
 
         </>
