@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../styles/OwnerInfo.css'
+import '../styles/OwnerRatings.css'
 import starRed from '../assets/star-red.png'
 import starGrey from '../assets/star-grey.png'
 

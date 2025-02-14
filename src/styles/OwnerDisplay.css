@@ -1,0 +1,6 @@
+.ownerDisplayContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Optionnel : aligne verticalement les éléments */
+  }

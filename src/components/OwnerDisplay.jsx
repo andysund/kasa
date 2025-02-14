@@ -1,12 +1,15 @@
 import OwnerInfo from "./OwnerInfo";
 import OwnerRatings from "./OwnerRatings";
 import PropTypes from 'prop-types';
+import '../styles/OwnerDisplay.css';
 
 function OwnerDisplay({ title, location, host, tags, ratings }) {
   return (
     <>
+       <div className="ownerDisplayContainer">
       <OwnerInfo title={title} location={location} host={host} tags={tags} />
       <OwnerRatings host={host} rating={ratings} />
+    </div>
 
     </>
   );
