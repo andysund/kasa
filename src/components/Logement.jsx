@@ -1,10 +1,11 @@
 // Logement.jsx
 import { useParams } from 'react-router-dom'
 import logements from '../assets/logements.json'
-import OwnerInfo from './OwnerInfo'
+
 import SlideShow from './SlideShow'
 import Banner from './banner'
 import Footer from './Footer'
+import OwnerDisplay from './OwnerDisplay'
 
 function Logement() {
   const { id } = useParams()
@@ -18,10 +19,12 @@ function Logement() {
     <>
       <Banner/>
       <SlideShow pictures={logement.pictures} />
-      <OwnerInfo 
-        title={logement.title}
-        location={logement.location}
-        host={logement.host}
+      <OwnerDisplay 
+        title={logement.title} 
+        location={logement.location} 
+        host={logement.host} 
+        tags={logement.tags} 
+        ratings={logement.rating} 
       />
       <Footer/>
 
