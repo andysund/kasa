@@ -1,0 +1,9 @@
+.dropdownDisplay{
+    display : flex;
+    gap: 80px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}

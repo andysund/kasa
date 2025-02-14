@@ -1,0 +1,46 @@
+.dropdown {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Entête du dropdown */
+  .dropdown-header {
+    background-color: #ff6060; /* Couleur du bandeau */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px; /* arrondir un peu si besoin */
+  }
+  
+  .dropdown-header h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* La petite flèche */
+  .chevron {
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+  }
+  
+  /* Classe appliquée quand le dropdown est ouvert pour faire pivoter la flèche */
+  .chevron-up {
+    transform: rotate(180deg);
+  }
+  
+  /* Contenu du dropdown quand il est ouvert */
+  .dropdown-body {
+    background-color: #f6f6f6; /* fond gris clair */
+    padding: 1rem;
+    border-radius: 0 0 5px 5px; /* arrondir le bas si vous voulez un effet "carte" */
+  }
+  
+  /* Chaque ligne de contenu */
+  .dropdown-body p {
+    margin: 0 0 0.5rem 0;
+  }
+  

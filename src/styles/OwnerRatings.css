@@ -50,8 +50,16 @@
     border-radius: 50%;
 
 }
-.tags {
+.tags{
     width: 115px;
     height: 25px;
     border-radius: 10px;
+    background-color: #ff6060;
+
+}
+.tag{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+
 }
