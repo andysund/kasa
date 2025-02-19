@@ -38,6 +38,11 @@
 .loft-owner__name h1 {
     margin: 0
 }
+
+.loft-owner__name div {
+    color: #ff6060;
+}
+
 .loft-owner__picture img {
     height: 64px;
     width: 64px;
@@ -50,4 +55,10 @@
     border-radius: 10px;  
     overflow: hidden;
 
+}
+.loft-location h2 {
+    color: #ff6060;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
 }

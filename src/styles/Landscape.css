@@ -1,8 +1,7 @@
 .landscape-banner {
-   background-image: url("../assets/Image source 1.png");
    background-size: cover ;
    height: 223px;
-   width: 1240px;
+   width: 100%;
    background-position: center;
    display: flex;
    align-items: center;
