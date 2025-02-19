@@ -28,7 +28,7 @@ function Logement() {
         tags={logement.tags} 
         ratings={logement.rating} 
       />
-      <div className="dropdownDisplay">
+      <div className="logementDropdownDisplay">
       <Dropdown title="Description" items={logement.description} />  
 <Dropdown title="Équipements" items={logement.equipments} />
 

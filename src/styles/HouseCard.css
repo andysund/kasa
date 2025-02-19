@@ -28,9 +28,19 @@
     padding-top: 50px;
     width: 1240px;
     height: 830px;
+  
+
 
 
 }
+
+
+/* peut on utiliser webkit ? */
+
+.house-cards::-webkit-scrollbar {
+    display: none;
+}
+
 .rental-location {
     color: white;
     position: absolute;
